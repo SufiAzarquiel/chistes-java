@@ -1,0 +1,44 @@
+.py-xxl {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.bg-gray {
+    background-color: #979797 !important;
+}
+
+.bg-gray-light {
+    background-color: #f7f7f7 !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.abs-left-center {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.abs-center-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.accordion-button{
+    display:block;
+}
+
+.accordion-button::after {
+    display:inline-block;
+    vertical-align: bottom;
+    margin-left: 1rem;
+}
